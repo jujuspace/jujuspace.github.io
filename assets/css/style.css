@@ -275,3 +275,67 @@ footer {
     border-bottom: none;
     padding-bottom: 0;
 }
+
+.experience-header {
+    margin-bottom: 15px;
+}
+
+.title-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.experience-header h3 {
+    font-size: 1.3rem;
+    color: #333;
+    margin: 0;
+}
+
+.company {
+    display: block;
+    font-weight: bold;
+    color: #666;
+    font-size: 1rem;
+}
+
+.duration {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.experience-content {
+    margin-bottom: 25px;
+}
+
+.experience-content ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.experience-content li {
+    margin-bottom: 8px;
+    color: #444;
+}
+
+.institution {
+    font-size: 1.3rem;
+    color: #333;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.education-details {
+    margin-top: 5px;
+}
+
+.degree {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+/* Education 섹션의 title-row 특별 처리 */
+.education-details .title-row {
+    margin-bottom: 0;
+}
